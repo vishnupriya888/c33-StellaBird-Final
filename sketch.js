@@ -51,8 +51,9 @@ function draw(){
         background(backgroundImg);
     
         noStroke();
-        textSize(35)
-        fill("white")
+        textSize(30);
+        textFont("Comic Sans MS");
+        fill("lightpink");
         text("Score : " + score, width-300, 50)
     
     Engine.update(engine);
@@ -112,7 +113,8 @@ async function getBackgroundImg(){
         bg = "images/background.jpg";
     }
     else{
-        bg = "images/background.jpg";
+        bg = "images/background2.png";
+       // bg = "images/background.jpg";
     }
 
     backgroundImg = loadImage(bg);
