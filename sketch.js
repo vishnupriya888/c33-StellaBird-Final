@@ -113,8 +113,8 @@ async function getBackgroundImg(){
         bg = "images/background.jpg";
     }
     else{
-        bg = "images/background2.png";
-       // bg = "images/background.jpg";
+       // bg = "images/background2.png";
+        bg = "images/background.jpg";
     }
 
     backgroundImg = loadImage(bg);
